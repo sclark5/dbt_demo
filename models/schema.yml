@@ -40,13 +40,7 @@ models:
               to: ref('stg_customers')
               field: customer_id
 
-  - name: customers_no_orders
-    description: This model is a view built for the sales team to identify customers with no orders
-    columns:
-      - name: customer_id
-        description: Primary key
-        data_tests:
-          - not_null
-          - unique
+
+
               
 
